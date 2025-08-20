@@ -13,8 +13,7 @@ public class D01_registerStepDef {
 
     @And("click on register button")
     public void registerbutton() {
-        registerObj.clickonregistericon().click();
-    }
+        registerObj.clickonregistericon().click();}
 
     @When("user select gender")
     public void selectgender() {
